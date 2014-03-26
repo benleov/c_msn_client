@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	struct login loginDetails;
-	loginDetails = init(argc, argv); /* Promt for user details */
+	loginDetails = init(argc, argv); /* Prompt for user details */
 	
 	debugPrintStr("main: username: ",loginDetails.username ); // TODO: URL Encoded this
   	debugPrintStr("main: password: ", loginDetails.password);// TODO: URL Encoded this
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 
 	/* By now we have username credentials. Lets start a connection.*/
 	
-	msnConnect(loginDetails.username,loginDetails.password, STATUS_ONLINE); //"email%40hotmail%2Ecom%0D%0A"
+	msnConnect(loginDetails.username,loginDetails.password, STATUS_ONLINE); //"email%address%2Ecom%0D%0A"
 	
 	return 0;
 }
