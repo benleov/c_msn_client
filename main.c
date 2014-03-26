@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 
 	/* By now we have username credentials. Lets start a connection.*/
 	
-	msnConnect(loginDetails.username,loginDetails.password, STATUS_ONLINE); //"ben%5Fleov%40hotmail%2Ecom%0D%0A"
+	msnConnect(loginDetails.username,loginDetails.password, STATUS_ONLINE); //"email%40hotmail%2Ecom%0D%0A"
 	
 	return 0;
 }
