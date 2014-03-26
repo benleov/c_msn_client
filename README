@@ -53,5 +53,5 @@ Optional:
 
 /* NOTE: */
 
-We will get a unauthorized response (401) if password line isn't sent over ssl.
+An unauthorized response (401) will occur if the password line isn't sent over ssl.
 
