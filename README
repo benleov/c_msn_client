@@ -1,26 +1,13 @@
--- Current Development --
 
-Complete string.c/string_length( int number );
-complete msn.c/sendMessage (int sock, char* message);
-save contact list
+-- Dependancies --
 
--- Libraries --
-
-ssl
-
-http://www.rtfm.com/openssl-examples/
+ssl - http://www.rtfm.com/openssl-examples/
 
 install openssl-devel  ( apt-get install libssl-dev )
 
-=======
+-- Resources --
 
-MSN error codes
-
-http://www.hypothetic.org/docs/msn/reference/error_list.php
-
-install openssl-devel 
-
-Compilation
+MSN error codes: http://www.hypothetic.org/docs/msn/reference/error_list.php
 
 Required Flags:
 
@@ -36,10 +23,6 @@ Required Flags:
 -D_GNU_SOURCE	
 
 
-Required Libraries:
-
-openssl-devel
-
 Optional:
 
 -O0 
@@ -51,7 +34,7 @@ Optional:
 -v
 
 
-/* NOTE: */
+-- Notes --
 
 An unauthorized response (401) will occur if the password line isn't sent over ssl.
 
