@@ -29,18 +29,21 @@ Required Flags:
 
 (Linker)
 
+```
 -lpthread 		
 -lssl 
 -lcrypto
 -lm 
+```
 
 (gcc)
 
+```
 -D_GNU_SOURCE	
-
+```
 
 Optional:
-
+```
 -O0 
 -g3 
 -Wall 
@@ -48,3 +51,4 @@ Optional:
 -fmessage
 -length=0 
 -v
+```
