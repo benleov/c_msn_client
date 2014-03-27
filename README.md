@@ -1,6 +1,15 @@
 c_msn_client
 ================================
 
+Command line MSN client. 
+
+Usage 
+--------------------------------
+
+```
+msn username@email.com -p password
+```
+
 Dependancies 
 --------------------------------
 
